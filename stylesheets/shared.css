@@ -24,8 +24,44 @@ a {
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: orange;
+}
+
+h2 {
+  color: orange;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  max-width: 100%;
+}
+
+table {
+  margin: auto;
+  margin-top: 2rem;
+  border: 2px solid orange;
+  border-radius: 2%;
+  padding: 1rem;
+  width: 90%;
+}
+
+th {
+  color: orangered;
+}
+
+td {
+  padding: 2rem;
 }
 
 .header-title, h3 {

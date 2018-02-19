@@ -24,42 +24,10 @@
   margin: 2rem;
 }
 
-h2{
-  color: orange;
-  font-size: 28px;
-  font-style: italic;
-  font-weight: bold;
-  margin-top: 3rem;
-}
-
-p{
-  font-size: 18px;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  max-width: 100%;
-}
-
 .inline {
   font-size: 18px;
   font-style: italic;
   color: orangered;
-}
-
-.table {
-  margin: auto;
-  margin-top: 2rem;
-  border: 2px solid orange;
-  border-radius: 2%;
-  padding: 1rem;
-  width: 90%;
-}
-
-th {
-  color: orangered;
-}
-
-td {
-  padding: 2rem;
 }
 
 .quote {
