@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>How To HTML And CSS</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/index.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/pages.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+  <main></main>
+
+  <header>
+    <a href='../index.html'>HOW TO HTML & CSS</a>
+  </header>
+
+  <div class="main">
+    <div class="lovely-text">
+      <h1> html - links </h1>
+    </div>
+
+    <div class='content'>
+      <p>
+        This is how you create a link:
+      </p>
+      <pre class="code">
+        &lt;a href="../index.html"&gt; This is what you see!&lt;/a&gt;
+      </pre>
+      <p>
+        The value assinged to the href attributes decides where your user should go after clicking the link. In this case we make
+        use of a relative path: the browser will look for the file that is displayed, go one directory 'up' and will look there
+        for an index.html file.
+      </p>
+      
+      <img src="../images/links.png" />
+      
+      <p>If you want to link to a file in the same directory, by using a relative filepath, this is how you'd do that:</p>
+      <pre class="code">
+        &lt;a href="./IntroToCSS.html"&gt; This is what you see!&lt;/a&gt;
+      </pre>
+      <p>You can of course also link to a website that is already online, by using an URL:</p>
+      <pre class="code">
+        &lt;a href="https://www.codaisseur.com/"&gt; This is what you see!&lt;/a&gt;
+      </pre>
+      <p>This is what would happen:</p>
+      <a class="inline" href="https://www.codaisseur.com/">This is what you see!</a>
+    </div>
+  
+    <div class="footer">
+      <div class='links'>
+        <h4>HTML</h4>
+        <a href="./Structure.html">Structure</a>
+        <a href="./TagsAndAttributes.html">Tags & Attributes</a>
+        <a href="./Links.html">Links</a>
+      </div>
+    
+      <div class='links'>
+        <h4>CSS</h4>
+        <a href="./IntroToCss.html">Introduction</a>
+        <a href="./ColorTextAndImages.html">Color, Text and Images</a>
+        <a href="./BoxModel.html">Box Model</a>
+        <a href="./Positioning.html">Positioning</a>
+        <a href="./FlexBox.html">FlexBox</a>
+    
+      </div>
+    
+      <div class='links'>
+        <h4>Clean Code</h4>
+        <a href="./Refactoring.html">Refactoring</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
