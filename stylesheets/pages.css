@@ -1,24 +1,9 @@
-main{
-  position: fixed;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  background-color: black;
-  height: 3200px;
-  opacity: 0.5; 
-  z-index: 0;
-}
-
-.main{
-  position: absolute;
-  color: white;
-  z-index: 1;
-  padding: 2px;
-  width: 100% 
-}
-
-header a {
-  font-size: 2rem;
+.main {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      )
 }
 
 .content {
