@@ -77,6 +77,12 @@ td {
   text-shadow: 1px 1px #000;
 }
 
+.double-content{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
 .footer {
   display: flex;
   flex-flow: row nowrap;
