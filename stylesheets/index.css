@@ -11,10 +11,17 @@
 
 .title {
   padding: 4rem;
-  width: 100%;
+  width:100%;
 }
 
 .intro-text {
   padding: 4rem;
   border-left: 2px solid grey;
+  width: 100%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
