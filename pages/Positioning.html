@@ -1,85 +1,84 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>How To HTML And CSS</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/pages.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/shared.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <title>How To HTML And CSS</title>
-  <link rel="stylesheet" type="text/css" href="../stylesheets/pages.css">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/shared.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-</head>
+  <body>
+    <header>
+      <a href="../index.html" class="header-title">
+        <h3>HOW TO HTML & CSS </h3>
+      </a>
+    </header>
 
-<body>
-  <header>
-    <a href="../index.html" class="header-title">
-      <h3>HOW TO HTML & CSS </h3>
-    </a>
-  </header>
-
-  <div class="container">
-    <div class="lovely-text">
-      <h1> css - positioning</h1>
-    </div>
-    <div class='content'>
-      <p>You can position your 'boxes' (elements) on the page by using the CSS position property:</p>
-      <pre class='code'>
-        .header { 
-          position: fixed;
-          top: 0;
-        }
-        
-        p {
-          position: static;
-        }
-
-        img {
-          position: relative;
-          top: -20px;
-          left: 2opx
-        }
-
-        .nav {
-          position: absolute;
-          top: 120px;
-          right: 0;
-        }
-      </pre>
-      <ul>
-        <li>Fixed sticks your element to a place on your screen</li>
-        <li>Static is the default value</li>
-        <li>
-          Setting the top, right, bottom and left properties of a relatively-positioned element will cause it to be adjusted
-          away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
-        </li>
-        <li>
-          An absolutely-positioned element is positioned relative to its parent.
-        </li>
-      </ul>
-      <p> Some examples of the different sorts of positioning can be found on <a class="inline" href="http://learnlayout.com/position.html"> learnlayout </a> </p>
-
-    </div>
-
-    <div class="footer">
-      <div class='links'>
-        <h4>HTML</h4>
-        <a href="./Structure.html">Structure</a>
-        <a href="./TagsAndAttributes.html">Tags & Attributes</a>
-        <a href="./Links.html">Links</a>
+    <div class="container">
+      <div class="lovely-text">
+        <h1> css - positioning</h1>
       </div>
-      <div class='links'>
-        <h4>CSS</h4>
-        <a href="./IntroToCss.html">Introduction</a>
-        <a href="./ColorTextAndImages.html">Color, Text and Images</a>
-        <a href="./BoxModel.html">Box Model</a>
-        <a href="./Positioning.html">Positioning</a>
-        <a href="./FlexBox.html">FlexBox</a>
+      
+      <div class='content'>
+        <p>You can position your 'boxes' (elements) on the page by using the CSS position property:</p>
+        <pre class='code'>
+          .header { 
+            position: fixed;
+            top: 0;
+          }
+          
+          p {
+            position: static;
+          }
+
+          img {
+            position: relative;
+            top: -20px;
+            left: 2opx
+          }
+
+          .nav {
+            position: absolute;
+            top: 120px;
+            right: 0;
+          }
+        </pre>
+        <ul>
+          <li>Fixed sticks your element to a place on your screen</li>
+          <li>Static is the default value</li>
+          <li>
+            Setting the top, right, bottom and left properties of a relatively-positioned element will cause it to be adjusted
+            away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
+          </li>
+          <li>
+            An absolutely-positioned element is positioned relative to its parent.
+          </li>
+        </ul>
+        <p> Some examples of the different sorts of positioning can be found on <a class="inline" href="http://learnlayout.com/position.html"> learnlayout </a> </p>
+
       </div>
-      <div class='links'>
-        <h4>Clean Code</h4>
-        <a href="./Refactoring.html">Refactoring</a>
+
+      <div class="footer">
+        <div class='links'>
+          <h4>HTML</h4>
+          <a href="./Structure.html">Structure</a>
+          <a href="./TagsAndAttributes.html">Tags & Attributes</a>
+          <a href="./Links.html">Links</a>
+        </div>
+        <div class='links'>
+          <h4>CSS</h4>
+          <a href="./IntroToCss.html">Introduction</a>
+          <a href="./ColorTextAndImages.html">Color, Text and Images</a>
+          <a href="./BoxModel.html">Box Model</a>
+          <a href="./Positioning.html">Positioning</a>
+          <a href="./FlexBox.html">FlexBox</a>
+        </div>
+        <div class='links'>
+          <h4>Clean Code</h4>
+          <a href="./Refactoring.html">Refactoring</a>
+        </div>
       </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>

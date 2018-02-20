@@ -1,100 +1,94 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>How To HTML And CSS</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/pages.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/shared.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <title>How To HTML And CSS</title>
-  <link rel="stylesheet" type="text/css" href="../stylesheets/pages.css">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/shared.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-</head>
+  <body>
+    <header>
+      <a href="../index.html" class="header-title">
+        <h3>HOW TO HTML & CSS </h3>
+      </a>
+    </header>
 
-<body>
-  <header>
-    <a href="../index.html" class="header-title">
-      <h3>HOW TO HTML & CSS </h3>
-    </a>
-  </header>
-
-  <div class="container">
-    <div class="lovely-text">
-      <h1> html - elements, <br/>tags & attributes</h1>
-    </div>
-
-    <div class='content'>
-      <p>Here is an example of the anatomy of an HTML element:</p>
-      <img src="https://www.computerhope.com/jargon/h/html-tag.gif" alt="Breakdown HTML tag" />
-      <p>
-        Elements are the 'boxes' of you html page, they will contain other boxes, which will contain content, such as a title, an
-        image or a pragraph of text. Tags show what sort of element you are dealing with. An attributes gives extra information
-        about an element. Some examples of elements are:
-      </p>
-      <pre class="code">
-        &lt;!-- Headings --&gt;
-            &lt;h1&gt; This is a big heading!&lt;/h1&gt;
-            &lt;h3&gt; This is a smaller heading!&lt;/h3&gt;
-            &lt;h6&gt; This is an even smaller heading!&lt;/h6&gt;
-
-
-        &lt;!-- Unordered list --&gt;
-          &lt;ul&gt;
-            &lt;li&gt; This is on your list &lt;/li&gt;
-            &lt;li&gt; And this is on your list &lt;/li&gt;
-            &lt;li&gt; And this is also on your list &lt;/li&gt;
-          &lt;/ul&gt;
-
-
-        &lt;!-- Paragraphs --&gt;
-          &lt;p&gt; Here you can write a very long paragraph of multiple lines because
-          that is what paragraphs are for, right? The next paragraph will start on a
-          new line. &lt;p&gt;
-
-        &lt;!-- Div --&gt;
-          &lt;div&gt;
-              &lt;h1&gt; This is a div &lt;/h1&gt;
-              &lt;p&gt; You can put multiple elements in here that belong together. For 
-              example you can create an info section, a header or make sure a picture 
-              and an discription always stick together!&lt;/p&gt;
-          &lt;div&gt;
-      </pre>
-      <p>
-        Attributes are used to give out information over you element. For example, you can give them a class:
-      </p>
-      <pre class="code">
-        &lt;!-- Attributes - class --&gt;
-
-        &lt;div class="header"&gt;
-          &lt;!-- Here you'll put code for your header --&gt;
-        &lt;/div&gt;
-      </pre>
-      <p>
-        A class can be used to name elements separatly, for example for styling purposes.
-      </p>
-    </div>
-
-    <div class="footer">
-      <div class='links'>
-        <h4>HTML</h4>
-        <a href="./Structure.html">Structure</a>
-        <a href="./TagsAndAttributes.html">Tags & Attributes</a>
-        <a href="./Links.html">Links</a>
+    <div class="container">
+      <div class="lovely-text">
+        <h1> html - elements, <br/>tags & attributes</h1>
       </div>
-      <div class='links'>
-        <h4>CSS</h4>
-        <a href="./IntroToCss.html">Introduction</a>
-        <a href="./ColorTextAndImages.html">Color, Text and Images</a>
-        <a href="./BoxModel.html">Box Model</a>
-        <a href="./Positioning.html">Positioning</a>
-        <a href="./FlexBox.html">FlexBox</a>
+
+      <div class='content'>
+        <p>Here is an example of the anatomy of an HTML element:</p>
+        <img src="https://www.computerhope.com/jargon/h/html-tag.gif" alt="Breakdown HTML tag" />
+        <p>
+          Elements are the 'boxes' of you html page, they will contain other boxes, which will contain content, such as a title, an
+          image or a pragraph of text. Tags show what sort of element you are dealing with. An attributes gives extra information
+          about an element. Some examples of elements are:
+        </p>
+        <pre class="code">
+          &lt;!-- Headings --&gt;
+              &lt;h1&gt; This is a big heading!&lt;/h1&gt;
+              &lt;h3&gt; This is a smaller heading!&lt;/h3&gt;
+              &lt;h6&gt; This is an even smaller heading!&lt;/h6&gt;
+
+
+          &lt;!-- Unordered list --&gt;
+            &lt;ul&gt;
+              &lt;li&gt; This is on your list &lt;/li&gt;
+              &lt;li&gt; And this is on your list &lt;/li&gt;
+              &lt;li&gt; And this is also on your list &lt;/li&gt;
+            &lt;/ul&gt;
+
+
+          &lt;!-- Paragraphs --&gt;
+            &lt;p&gt; Here you can write a very long paragraph of multiple lines because
+            that is what paragraphs are for, right? The next paragraph will start on a
+            new line. &lt;p&gt;
+
+          &lt;!-- Div --&gt;
+            &lt;div&gt;
+                &lt;h1&gt; This is a div &lt;/h1&gt;
+                &lt;p&gt; You can put multiple elements in here that belong together. For 
+                example you can create an info section, a header or make sure a picture 
+                and an discription always stick together!&lt;/p&gt;
+            &lt;div&gt;
+        </pre>
+        <p>Attributes are used to give out information over you element. For example, you can give them a class</p>
+        <pre class="code">
+          &lt;!-- Attributes - class --&gt;
+
+          &lt;div class="header"&gt;
+            &lt;!-- Here you'll put code for your header --&gt;
+          &lt;/div&gt;
+        </pre>
+        <p>A class can be used to name elements separatly, for example for styling purposes</p>
       </div>
-      <div class='links'>
-        <h4>Clean Code</h4>
-        <a href="./Refactoring.html">Refactoring</a>
+
+      <div class="footer">
+        <div class='links'>
+          <h4>HTML</h4>
+          <a href="./Structure.html">Structure</a>
+          <a href="./TagsAndAttributes.html">Tags & Attributes</a>
+          <a href="./Links.html">Links</a>
+        </div>
+        <div class='links'>
+          <h4>CSS</h4>
+          <a href="./IntroToCss.html">Introduction</a>
+          <a href="./ColorTextAndImages.html">Color, Text and Images</a>
+          <a href="./BoxModel.html">Box Model</a>
+          <a href="./Positioning.html">Positioning</a>
+          <a href="./FlexBox.html">FlexBox</a>
+        </div>
+        <div class='links'>
+          <h4>Clean Code</h4>
+          <a href="./Refactoring.html">Refactoring</a>
+        </div>
       </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
 
 

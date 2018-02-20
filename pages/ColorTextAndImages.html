@@ -1,140 +1,138 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>How To HTML And CSS</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/pages.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/shared.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <title>How To HTML And CSS</title>
-  <link rel="stylesheet" type="text/css" href="../stylesheets/pages.css">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/shared.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-</head>
+  <body>
+    <header>
+      <a href="../index.html" class="header-title">
+        <h3>HOW TO HTML & CSS </h3>
+      </a>
+    </header>
 
-<body>
-  <header>
-    <a href="../index.html" class="header-title">
-      <h3>HOW TO HTML & CSS </h3>
-    </a>
-  </header>
-
-  <div class="container">
-    <div class="lovely-text">
-      <h1> css - color, text & images</h1>
-    </div>
-
-    <div class="content">
-      <h2>Colors</h2>
-
-      <p> You change a background color by selecting the element you need and adding the background-color selector:</p>
-      <pre class='code'>
-          .body {
-            background-color: blue
-          }
-      </pre>
-
-      <p> A text color can be changed by selecting the element and adding the color selector:</p>
-      <pre class='code'>
-          .important {
-            color: red
-          }
-      </pre>
-
-      <p> Colors can be defined by names, hex color codes, or rgb color codes. So all of the following examples are correct: </p>
-      <pre class='code'>
-          .dangerous {
-            color: red;
-          }
-      </pre>
-
-      <pre class='code'> 
-        .warning { 
-          color: #FFA500; 
-        }
-      </pre>
-      
-      <pre class='code'> 
-        .safe { 
-          color: RGB(144, 238, 144);
-        }
-      </pre>
-
-      <p> 
-        To find the right colors, google for color picker, or have a look at 
-        <a class='inline'href='https://htmlcolorcodes.com/'>htmlcolorcodes.com</a>
-      </p>
-
-      <h2>Text</h2>
-      <p> Different ways to change the way your text looks:</p>
-      <pre class='code'>
-        p {
-          color: green;
-          font-family: Courier, monaco, monospace;
-          font-size: 1rem;
-          font-style: italic;
-          font-weight: bold;
-        }
-      </pre>
-
-      <p>
-        A font family changes the font of your text. For font-family 
-        there is no specific default or initial value; the initial value always depends on the browser and/or operating
-        system. In the above example, "Courier" and "Monaco" are real family names of actual fonts, whereas "monospace" is just a generic
-        reference to any font installed on the user's system that's monospaced. If the first two are not found installed, the browser
-        will select the best option, but only from monospace fonts. Without the generic family, the font would default to whatever
-        is the default font on the user's system (likely a serif or sans-serif), which would be undesirable. (For more info see
-        <a class='inline' href='https://css-tricks.com/almanac/properties/f/font-family/'>css-tricks.com</a>)
-      </p>
-
-      <p>
-        The font size can be defined in pixels, em or rem. A font style italic makes your 
-        font cursive and the font weight bakes your text bold
-      </p>
-
-      <p>
-        Google fonts can be used to upgrade your font family to something special, for specifics, have a look 
-        <a class='inline' href='https://developers.google.com/fonts/'> here</a>.
-      </p>
-
-      <h2>Images</h2>
-      <p>You add an image in your html file with the image tag:</p>
-      <pre class='code'>
-        &lt;img src= 'path/to/source' alt='description of image' class='large'/&lt;
-      </pre>
-
-      <p>You can also add a background image with css:</p>
-      <pre class='code'>
-        header {
-          background-image: url("images/wallpaper.png")
-        }
-      </pre>
-
-      <p> 
-        Your src (source) can be an url or a relative file path. The alt attribute will display whenever
-        the browser fails to load your picture, but is also useful for users that have devices that read
-        out whatever is on the screen.
-      </p>
-    </div>
-
-    <div class="footer">
-      <div class='links'>
-        <h4>HTML</h4>
-        <a href="./Structure.html">Structure</a>
-        <a href="./TagsAndAttributes.html">Tags & Attributes</a>
-        <a href="./Links.html">Links</a>
+    <div class="container">
+      <div class="lovely-text">
+        <h1> css - color, text & images</h1>
       </div>
-      <div class='links'>
-        <h4>CSS</h4>
-        <a href="./IntroToCss.html">Introduction</a>
-        <a href="./ColorTextAndImages.html">Color, Text and Images</a>
-        <a href="./BoxModel.html">Box Model</a>
-        <a href="./Positioning.html">Positioning</a>
-        <a href="./FlexBox.html">FlexBox</a>
-      </div>
-      <div class='links'>
-        <h4>Clean Code</h4>
-        <a href="./Refactoring.html">Refactoring</a>
-      </div>
-    </div>
-  </div>  
-</body>
 
+      <div class="content">
+        <h2>Colors</h2>
+
+        <p> You change a background color by selecting the element you need and adding the background-color selector:</p>
+        <pre class='code'>
+            .body {
+              background-color: blue
+            }
+        </pre>
+
+        <p> A text color can be changed by selecting the element and adding the color selector:</p>
+        <pre class='code'>
+            .important {
+              color: red
+            }
+        </pre>
+
+        <p> Colors can be defined by names, hex color codes, or rgb color codes. So all of the following examples are correct: </p>
+        <pre class='code'>
+            .dangerous {
+              color: red;
+            }
+        </pre>
+
+        <pre class='code'> 
+          .warning { 
+            color: #FFA500; 
+          }
+        </pre>
+        
+        <pre class='code'> 
+          .safe { 
+            color: RGB(144, 238, 144);
+          }
+        </pre>
+
+        <p> 
+          To find the right colors, google for color picker, or have a look at 
+          <a class='inline'href='https://htmlcolorcodes.com/'>htmlcolorcodes.com</a>
+        </p>
+
+        <h2>Text</h2>
+        <p> Different ways to change the way your text looks:</p>
+        <pre class='code'>
+          p {
+            color: green;
+            font-family: Courier, monaco, monospace;
+            font-size: 1rem;
+            font-style: italic;
+            font-weight: bold;
+          }
+        </pre>
+
+        <p>
+          A font family changes the font of your text. For font-family 
+          there is no specific default or initial value; the initial value always depends on the browser and/or operating
+          system. In the above example, "Courier" and "Monaco" are real family names of actual fonts, whereas "monospace" is just a generic
+          reference to any font installed on the user's system that's monospaced. If the first two are not found installed, the browser
+          will select the best option, but only from monospace fonts. Without the generic family, the font would default to whatever
+          is the default font on the user's system (likely a serif or sans-serif), which would be undesirable. (For more info see
+          <a class='inline' href='https://css-tricks.com/almanac/properties/f/font-family/'>css-tricks.com</a>)
+        </p>
+
+        <p>
+          The font size can be defined in pixels, em or rem. A font style italic makes your 
+          font cursive and the font weight bakes your text bold
+        </p>
+
+        <p>
+          Google fonts can be used to upgrade your font family to something special, for specifics, have a look 
+          <a class='inline' href='https://developers.google.com/fonts/'> here</a>.
+        </p>
+
+        <h2>Images</h2>
+        <p>You add an image in your html file with the image tag:</p>
+        <pre class='code'>
+          &lt;img src= 'path/to/source' alt='description of image' class='large'/&lt;
+        </pre>
+
+        <p>You can also add a background image with css:</p>
+        <pre class='code'>
+          header {
+            background-image: url("images/wallpaper.png")
+          }
+        </pre>
+
+        <p> 
+          Your src (source) can be an url or a relative file path. The alt attribute will display whenever
+          the browser fails to load your picture, but is also useful for users that have devices that read
+          out whatever is on the screen.
+        </p>
+      </div>
+
+      <div class="footer">
+        <div class='links'>
+          <h4>HTML</h4>
+          <a href="./Structure.html">Structure</a>
+          <a href="./TagsAndAttributes.html">Tags & Attributes</a>
+          <a href="./Links.html">Links</a>
+        </div>
+        <div class='links'>
+          <h4>CSS</h4>
+          <a href="./IntroToCss.html">Introduction</a>
+          <a href="./ColorTextAndImages.html">Color, Text and Images</a>
+          <a href="./BoxModel.html">Box Model</a>
+          <a href="./Positioning.html">Positioning</a>
+          <a href="./FlexBox.html">FlexBox</a>
+        </div>
+        <div class='links'>
+          <h4>Clean Code</h4>
+          <a href="./Refactoring.html">Refactoring</a>
+        </div>
+      </div>
+    </div>  
+  </body>
 </html>
