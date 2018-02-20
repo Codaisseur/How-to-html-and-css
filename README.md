@@ -52,7 +52,7 @@ Have look around, compare this code to your own and create an opinion on what yo
   * 14:30 Remind them it is time to work on CSS
   * 16:00 Deploy, prepare presentation
   * 16:30 Demos + presentations
-  * 17:15 Peer review (see evaluation exercise) + class evaluation (see questions)
+  * 17:15 Peer review (see evaluation page and [this survey](https://www.surveymonkey.com/r/LPRVVM2?course=[course_value])) + class evaluation (see questions below, go over results survey.)
   
   #### Closing *(How can I bring closure to summarize learning and enhance retention of the material?)*
   * Discuss questions peer review
