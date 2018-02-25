@@ -63,6 +63,12 @@ td {
   padding: 2rem;
 }
 
+pre {
+  overflow: auto;
+  background-color: white;
+  color: black;
+}
+
 .header-title, h3 {
   font-size: 3rem;
   letter-spacing: 0.1rem;
