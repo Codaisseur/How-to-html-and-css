@@ -5,8 +5,8 @@ html, body {
  }
 
 body {
-  background-image: url(http://thetechnews.com/wp-content/uploads/2016/11/Developer-1000x600.jpg);
-  background-repeat: no-repeat ;
+  background-image: linear-gradient(rgba(220, 247, 241, 0.85), rgba(220, 247, 241, 0.85)), url(http://thetechnews.com/wp-content/uploads/2016/11/Developer-1000x600.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   font: 1em/1.25 'Roboto', sans-serif;
@@ -17,16 +17,22 @@ h1, h2, h3, h4 {
  padding: 0;
  font-weight: normal;
  font-family: 'Roboto', Helvetica, sans-serif;
+ color: #3a3a3a;
  }
 
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem 0
+}
 h2 {
- color: #3a3a3a;
- font-size: 2rem;
- font-weight: bold;
+ font-size: 2.5rem;
+ padding: 1.5rem;
 }
 
-h4 {
- font-size: 2rem;
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 header {
@@ -34,7 +40,6 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
-  margin-bottom: 1rem;
   box-shadow: 0 1px 3px rgba(0, 0, 255, .2);
 }
 
@@ -73,20 +78,19 @@ td {
   padding: 2rem;
 }
 
-.header-title, h3 {
-  text-align: center;
-  font-size: 2rem;
+.header-title {
   letter-spacing: 0.1rem;
+  text-align: center;
 }
 
 .container {
-  background-color: rgba(220, 247, 241, 0.85);
+  padding-top: 10rem;
 }
 
 .lovely-text {
   font-size: 2rem;
   color: white;
-  padding-top: 4rem;
+  padding-top: 10rem;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -101,12 +105,14 @@ td {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
-  margin-bottom: none
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   padding-top: 1rem;
   padding-bottom: 2rem;
   background-color: white;
   color: #3a3a3a;
-  box-shadow: 0 1px 3px rgba(0, 0, 255, .2);
+  /* box-shadow: 1px 0 3px rgba(0, 0, 255, .2); */
 }
 
 .links {
