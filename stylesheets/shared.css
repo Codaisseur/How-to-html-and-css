@@ -32,7 +32,12 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+h4 {
+  margin: 0.5rem 0;
 }
 
 header {
@@ -112,10 +117,10 @@ td {
   padding-bottom: 2rem;
   background-color: white;
   color: #3a3a3a;
-  /* box-shadow: 1px 0 3px rgba(0, 0, 255, .2); */
 }
 
 .links {
   display: flex;
   flex-flow: column;
+  font-variant: small-caps;
 }
