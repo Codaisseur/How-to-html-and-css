@@ -30,68 +30,65 @@ h4 {
 }
 
 header {
-  background-color: black;
-  color: white;
-  margin-top: 0;
+  background-color: white;
   width: 100%;
-  font-weight: bold;
-  text-align: center;
-  border-top: 2px solid orange;
-  border-bottom: 2px solid orange;
+  position: fixed;
+  top: 0;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 255, .2);
 }
 
 a {
-  color: white;
+  color: #3a3a3a;
   text-decoration: none;
 }
 
 a:hover {
-  color: orange;
+  color: #fff777;
+  transition: 300ms;
 }
 
 p {
-  font-size: 18px;
+  font-size: 1rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
   max-width: 90%;
+  color: #3a3a3a;
 }
 
 table {
   margin: auto;
   margin-top: 2rem;
-  border: 2px solid orange;
+  border: 2px solid white;
   border-radius: 2%;
   padding: 1rem;
   width: 90%;
 }
 
 th {
-  color: orangered;
+  color: #fff777;
 }
 
 td {
   padding: 2rem;
 }
 
-pre {
-  overflow: auto;
-  background-color: white;
-  color: black;
-}
-
 .header-title, h3 {
-  font-size: 3rem;
+  text-align: center;
+  font-size: 2rem;
   letter-spacing: 0.1rem;
 }
 
+.container {
+  background-color: rgba(220, 247, 241, 0.85);
+}
+
 .lovely-text {
-  font-family: "Dancing Script", cursive;
   font-size: 2rem;
   color: white;
   padding-top: 4rem;
   margin-bottom: 2rem;
   text-align: center;
-  text-shadow: 1px 1px #000;
 }
 
 .double-content{

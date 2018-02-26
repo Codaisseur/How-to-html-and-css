@@ -1,31 +1,30 @@
-.container {
-  margin-top: -4rem;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 .content {
   width: 80%;
   padding: 0 2rem;
-  color: white;
   margin: 0 4rem;
+  color: #3a3a3a;
 }
 
 .box-model, img {
   width: 50%;
   margin: 2rem;
-  border: 2px solid orange;
+  border: 2px solid white;
   border-radius: 3px;
 }
 
 .inline {
   font-size: 18px;
   font-style: italic;
-  color: orangered;
+  color: #fff777;
+}
+
+.inline:hover {
+  color: rgba(0, 0, 255, .2);
 }
 
 .quote {
   font-style: italic;
-  border: 2px solid orange;
+  border: 2px solid white;
   border-radius: 2%;
   text-align: center;
   padding: 2rem;
