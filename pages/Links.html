@@ -10,21 +10,19 @@
 
   <body>
     <header>
-      <a href="../index.html" class="header-title">
-        <h3>HOW TO HTML & CSS</h3>
-      </a>
+      <h2 class="header-title"><a href="../index.html">
+        HOW TO HTML & CSS
+      </h2></a>
     </header>
 
     <div class="container">
-      <div class="lovely-text">
-        <h1>html - links</h1>
-      </div>
-
       <div class='content'>
+        <h1>HTML - links</h1>
         <p>This is how you create a link:</p>
-        <pre><code>
+        <pre class="code-block"><code>
           &lt;a href="../index.html"&gt;This is what you see!&lt;/a&gt;
         </code></pre>
+
         <p>
           The value assigned to the href attributes decides where your user should go after clicking the link.
           In this case we make use of a relative path: the browser will look for the file that is displayed,
@@ -33,37 +31,36 @@
 
         <img src="../images/links.png" />
         <p>If you want to link to a file in the same directory, by using a relative filepath, this is how you'd do that:</p>
-        <pre><code>
-          &lt;a href="./IntroToCSS.html"&gt; This is what you see!&lt;/a&gt;
+        <pre class="code-block"><code>
+          &lt;a href="./IntroToCSS.html"&gt;This is what you see!&lt;/a&gt;
         </code></pre>
-        
-        <p>You can of course also link to a website that is already online, by using an URL:</p>
-        <pre><code>
-          &lt;a href="https://www.codaisseur.com/"&gt; This is what you see!&lt;/a&gt;
-        </code></pre>
-        <p>This is what would happen:</p>
-        <a class="inline" href="https://www.codaisseur.com/">This is what you see!</a>
-      </div>
 
-      <div class="footer">
-        <div class='links'>
-          <h4>HTML</h4>
-          <a href="./Structure.html">Structure</a>
-          <a href="./TagsAndAttributes.html">Tags & Attributes</a>
-          <a href="./Links.html">Links</a>
-        </div>
-        <div class='links'>
-          <h4>CSS</h4>
-          <a href="./IntroToCss.html">Introduction</a>
-          <a href="./ColorTextAndImages.html">Color, Text and Images</a>
-          <a href="./BoxModel.html">Box Model</a>
-          <a href="./Positioning.html">Positioning</a>
-          <a href="./FlexBox.html">FlexBox</a>
-        </div>
-        <div class='links'>
-          <h4>Clean Code</h4>
-          <a href="./Refactoring.html">Refactoring</a>
-        </div>
+        <p>You can of course also link to a website that is already online, by using an URL:</p>
+        <pre class="code-block"><code>
+          &lt;a href="https://www.codaisseur.com/"&gt;This is what you see!&lt;/a&gt;
+        </code></pre>
+        <span>This is what would happen: <a class="inline" href="https://www.codaisseur.com/">This is what you see!</a></span>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="links">
+        <h4>HTML</h4>
+        <a href="./Structure.html">structure</a>
+        <a href="./TagsAndAttributes.html">tags and attributes</a>
+        <a href="./Links.html">links</a>
+      </div>
+      <div class="links">
+        <h4>CSS</h4>
+        <a href="./IntroToCss.html">introduction</a>
+        <a href="./ColorTextAndImages.html">color text images</a>
+        <a href="./BoxModel.html">box model</a>
+        <a href="./Positioning.html">positioning</a>
+        <a href="./FlexBox.html">flexbox</a>
+      </div>
+      <div class="links">
+        <h4>CLEAN CODE</h4>
+        <a href="./Refactoring.html">refactoring</a>
       </div>
     </div>
   </body>
