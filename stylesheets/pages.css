@@ -5,16 +5,6 @@
   border-radius: 3px;
 }
 
-.inline {
-  font-size: 18px;
-  font-style: italic;
-  color: #b2bce9;
-}
-
-.inline:hover {
-  color: #fff777;
-}
-
 .quote {
   font-style: italic;
   border: 2px solid white;

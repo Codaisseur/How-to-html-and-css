@@ -171,7 +171,7 @@
 
             .better {
               background-color: gray;
-              border: none ! important;
+              border: none !important;
             }
 
             p {
@@ -180,31 +180,31 @@
               padding: 5px;
             }
           </code></pre>
-          <ol>
-            <li>
-              The third rule's color and padding values will be applied (white and 5px), but the background-color hasn't.
-              Why? Really all three should surely apply, because rules later in the source order generally override earlier
-              rules.
-            </li>
-            <li>
-              However, The rules above it win, because IDs/class selectors have higher specificity than element selectors.
-            </li>
-            <li>
-              Both elements have a class of better, but the 2nd one has an id of winning too. Since IDs have an even higher
-              specificity than classes (you can only have one element with a unique ID on a page, but many elements with
-              the same class — ID selectors are very specific in what they target), the red background color and the 1 pixel
-              black border should both be applied to the 2nd element, with the first element getting the gray background
-              color, and no border, as specified by the class.
-            </li>
-            <li>
-              The 2nd element does get the red background color, but no border. Why? Because of the !important declaration
-              in the second rule — including this after border: none means that this declaration will win over the border
-              value in the previous rule, even though the ID has higher specificity.
-            </li>
-          </ol>
+
+          <p>
+            The color and padding values of the rules in the element-selector will be applied (white and 5px), but not the background-color.
+            Why? Really all three should surely apply, because rules later in the source order generally override earlier
+            rules.
+          </p>
+          <p>
+            However, the rules above it win. Because 'id' and 'class' selectors have higher specificity than element selectors.
+          </p>
+          <p>
+            Both elements have a class of 'better', but the first one has an id called #winning and id's have an even higher
+            specificity than classes. You can only have one element with a unique id on a page, but many elements with
+            the same class — ID selectors are very specific in what they target. The red background color and the 1 pixel
+            black border should both be applied to the 2nd element, with the first element getting the gray background
+            color, and no border, as specified by the class.
+          </p>
+          <p>
+            The 2nd element does get the red background color, but no border. Why? Because of the !important declaration
+            in the second rule — including this after border: none means that this declaration will win over the border
+            value in the previous rule, even though the ID has higher specificity.
+          </p>
         </div>
       </div>
     </div>
+
     <div class="footer">
       <div class="links">
         <h4>HTML</h4>

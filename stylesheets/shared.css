@@ -102,6 +102,15 @@ td {
   padding: 1.5rem
 }
 
+ul {
+  list-style: square outside none;
+}
+
+li {
+  line-height: 1.5rem;
+  padding-bottom: 0.75rem;
+}
+
 .header-title {
   letter-spacing: 0.1rem;
   text-align: center;
@@ -132,6 +141,16 @@ td {
   margin: 2rem 0;
   width: 75%;
   overflow: scroll;
+}
+
+.inline {
+  font-size: 18px;
+  font-style: italic;
+  color: #b2bce9;
+}
+
+.inline:hover {
+  color: #fff777;
 }
 
 .footer {
