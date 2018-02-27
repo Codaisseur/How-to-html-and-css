@@ -13,3 +13,23 @@
   padding: 2rem;
   margin: 0 2rem;
 }
+
+.code-block.css-body {
+  background-color: lightblue;
+}
+
+.code-block.css-important {
+  color: darkred;
+}
+
+.code-block.css-dangerous {
+  color: red;
+}
+
+.code-block.css-warning {
+  color: #FFA500;
+}
+
+.code-block.css-safe {
+  color: rgb(60, 187, 60);
+}
