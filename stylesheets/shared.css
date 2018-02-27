@@ -69,20 +69,37 @@ p {
 }
 
 table {
-  margin: auto;
-  margin-top: 2rem;
-  border: 2px solid white;
-  border-radius: 2%;
-  padding: 1rem;
-  width: 90%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+tr {
+  background-color: #ececec;
+}
+
+td, th {
+  border-right: 2px solid white;
+  width: 33%;
+}
+
+td:last-child, th:last-child {
+  border-right: none;
 }
 
 th {
-  color: #fff777;
+  font-variant: small-caps;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #b2bce9;
+  color: white;
+  padding: 1rem;
 }
 
 td {
-  padding: 2rem;
+  font-size: 1rem;
+  vertical-align: top;
+  line-height: 1.5rem;
+  padding: 1.5rem
 }
 
 .header-title {

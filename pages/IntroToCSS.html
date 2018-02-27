@@ -100,33 +100,37 @@
             table explains the difference between them.
           </p>
           <table>
-            <tr>
-              <th>External Stylesheet</th>
-              <th>Internal Stylesheet</th>
-              <th>Inline Styles</th>
-            </tr>
-            <tr>
-              <td>
-                The External Stylesheet is a .css file that you link your website to.
-                This makes it so that whatever you change in the .css sheet, will affect
-                every page in your website that it is linked to. This prevents you from
-                having to make many code changes in each page. This is for "global" site changes.
-                As you would like your files to do only one thing at the time (for exmaple structuring,
-                but not styling!) this is the most favorable option.
-              </td>
-              <td>
-                This makes it easy to apply styles like classes or id's in order to reuse the code.
-                The downside of using an internal stylesheet is that changes to the internal stylesheet
-                only affect the page the code is inserted into, so your code wouldn't be very DRY, and
-                it isn't clear where styling is happening.
-              </td>
-              <td>
-                The Inline style is specific to the tag itself. The inline style uses the HTML "style"
-                attribute to style a specific tag. This is not recommended, as every CSS change has to
-                be made in every tag that has the inline style applied to it. The Inline style is good
-                for one an individual CSS change that you do not use repeatedly through the site.
-              </td>
-            </tr>
+            <thead>
+              <tr class="table-header">
+                <th>external stylesheet</th>
+                <th>internal stylesheet</th>
+                <th>inline styles</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  The External Stylesheet is a .css file that you link your website to.
+                  This makes it so that whatever you change in the .css sheet, will affect
+                  every page in your website that it is linked to. This prevents you from
+                  having to make many code changes in each page. This is for "global" site changes.
+                  As you would like your files to do only one thing at the time (for exmaple structuring,
+                  but not styling!) this is the most favorable option.
+                </td>
+                <td>
+                  This makes it easy to apply styles like classes or id's in order to reuse the code.
+                  The downside of using an internal stylesheet is that changes to the internal stylesheet
+                  only affect the page the code is inserted into, so your code wouldn't be very DRY, and
+                  it isn't clear where styling is happening.
+                </td>
+                <td>
+                  The Inline style is specific to the tag itself. The inline style uses the HTML "style"
+                  attribute to style a specific tag. This is not recommended, as every CSS change has to
+                  be made in every tag that has the inline style applied to it. The Inline style is good
+                  for one an individual CSS change that you do not use repeatedly through the site.
+                </td>
+              </tr>
+            </tbody>
           </table>
         </div>
 
