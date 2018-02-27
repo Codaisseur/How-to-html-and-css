@@ -10,30 +10,27 @@
 
   <body>
     <header>
-      <a href="../index.html" class="header-title">
-        <h3>HOW TO HTML & CSS</h3>
-      </a>
+      <h3 class="header-title">
+        <a href="../index.html">HOW TO HTML & CSS</a>
+      </h3>
     </header>
 
     <div class="container">
-      <div class="lovely-text">
-        <h1>css - introduction</h1>
-      </div>
-
       <div class='content'>
-        <h2>Styling, selectors and declarations</h2>
+        <h1>css - introduction</h1>
+        <h3>Styling, selectors and declarations</h3>
         <p>Where HTML is used for structuring, CSS is used for styling. A CSS 'rule set' consists of a selector and a
           declaration with different properties and property values:
         </p>
         <img src='http://www.olessons.com/wp-content/uploads/2016/11/css.jpg' alt='A CSS rule set'/>
 
         <div>
-          <h2>External, internal & inline</h2>
+          <h3>External, internal & inline</h3>
           <p>
             There are three different ways of styling your page. If you'd like to use an external stylesheet you link to
             it in the html file like this:
           </p>
-          <pre><code>
+          <pre class="code-block"><code>
             &lt;!DOCTYPE html&gt;
             &lt;html&gt;
               &lt;head&gt;
@@ -46,13 +43,13 @@
               &lt;/body&gt;
             &lt;/html&gt;
           </code></pre>
-          <p>Your code in your css file, just looks as the first example above.</p>
+          <p>Your code is in your css file, looks just like the first example above.</p>
 
           <p>
             An internal stylesheet is completely placed within the head section of your html file. It will look something
             like this:
           </p>
-          <pre><code>
+          <pre class="code-block"><code>
             &lt;!DOCTYPE html&gt;
             &lt;html&gt;
               &lt;head&gt;
@@ -62,6 +59,7 @@
                       color: white;
                       width: 80%;
                     }
+
                     .header {
                       background-color: black;
                     }
@@ -72,13 +70,13 @@
               &lt;/body&gt;
             &lt;/html&gt;
           </code></pre>
-
           <p>
             You can imagine this might become quite long as your file is doing multiple things at once
             (both styling and structuring) your app might be quite chaotic!
           </p>
+
           <p>Inline styling will look like this:</p>
-          <pre><code>
+          <pre class="code-block"><code>
             &lt;!DOCTYPE html&gt;
             &lt;html&gt;
               &lt;head&gt;
@@ -94,7 +92,7 @@
         </div>
 
         <div>
-          <h2>What should I use?</h2>
+          <h3>What should I use?</h3>
           <p>
             To add CSS styles to your website, you can use three different ways to insert the CSS.
             You can use an "External Stylesheet", "Internal Stylesheet", or "Inline Style".
@@ -133,7 +131,7 @@
         </div>
 
         <div>
-          <h2>Cascading</h2>
+          <h3>Cascading</h3>
           <p>
             At some point in your work, you'll find yourself in the situation where multiple CSS rules will
             have selectors matching the same element. In such cases, which CSS rule "wins", and ends up being
@@ -156,11 +154,11 @@
             </a>
           </p>
 
-          <pre><code>
+          <pre class="code-block"><code>
             &lt;p class="better"&gt;This is a paragraph&lt;/p&gt;
             &lt;p class="better" id="winning"&gt;One selector to rule them all!&lt;/p&gt;
           </code></pre>
-          <pre><code>
+          <pre class="code-block"><code>
             #winning {
               background-color: red;
               border: 1px solid black;
