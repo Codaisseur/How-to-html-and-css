@@ -4,7 +4,7 @@
   align-items: center;
   background-color: white;
   padding: 1rem 2.5rem;
-  margin: 4rem
+  margin: 4rem;
 }
 
 .intro-title {
@@ -15,4 +15,9 @@
   border-left: 1px solid #3a3a3a;
   padding-left: 1.5rem;
   width: 50%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
 }

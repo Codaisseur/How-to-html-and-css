@@ -60,6 +60,7 @@ a:hover {
 
 p {
   font-size: 1rem;
+  line-height: 1.5rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
   max-width: 90%;
@@ -92,12 +93,11 @@ td {
   padding-top: 10rem;
 }
 
-.lovely-text {
-  font-size: 2rem;
-  color: white;
-  padding-top: 10rem;
-  margin-bottom: 2rem;
-  text-align: center;
+.content {
+  color: #3a3a3a;
+  padding: 1rem 2.5rem;
+  margin: 0 6rem;
+  background-color: rgba(236, 236, 236, 0.6)
 }
 
 .double-content{
@@ -106,12 +106,20 @@ td {
   align-items: center;
 }
 
+.code-block {
+  border: 1px solid grey;
+  background-color: #ececec;
+  color: grey;
+  border-radius: 3px;
+  margin: 2rem 0;
+  width: 75%;
+  overflow: scroll;
+}
+
 .footer {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
-  position: absolute;
-  bottom: 0;
   width: 100%;
   padding-top: 1rem;
   padding-bottom: 2rem;
