@@ -111,6 +111,10 @@ li {
   padding-bottom: 0.75rem;
 }
 
+.list-clean {
+  list-style: none;
+}
+
 .header-title {
   letter-spacing: 0.1rem;
   text-align: center;
