@@ -33,3 +33,8 @@
 .code-block.css-safe {
   color: rgb(60, 187, 60);
 }
+
+.dry-img {
+  margin: 1rem 2rem 0 0;
+  border: none;
+}

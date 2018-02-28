@@ -111,6 +111,11 @@ li {
   padding-bottom: 0.75rem;
 }
 
+blockquote {
+  padding-left: 1rem;
+  border-left: 3px solid #607d8b;
+}
+
 .list-clean {
   list-style: none;
 }
@@ -131,10 +136,10 @@ li {
   background-color: rgba(236, 236, 236, 0.6)
 }
 
-.double-content{
+.double-content {
   display: flex;
   flex-flow: row nowrap;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .code-block {
