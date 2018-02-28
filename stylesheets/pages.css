@@ -1,10 +1,3 @@
-.box-model, img {
-  width: 50%;
-  margin: 2rem;
-  border: 2px solid white;
-  border-radius: 3px;
-}
-
 .quote {
   font-style: italic;
   border: 2px solid white;
@@ -37,4 +30,13 @@
 .dry-img {
   margin: 1rem 2rem 0 0;
   border: none;
+}
+
+.double-content.separation-concerns {
+  flex-flow: column nowrap;
+  width: 50%;
+}
+
+img.dry {
+  margin: 1rem 2rem 0 0;
 }

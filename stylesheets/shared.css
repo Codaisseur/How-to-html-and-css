@@ -112,8 +112,14 @@ li {
 }
 
 blockquote {
-  padding-left: 1rem;
   border-left: 3px solid #607d8b;
+  background-color: white;
+  padding: 1rem;
+}
+
+img {
+  width: 50%;
+  margin: 2rem;
 }
 
 .list-clean {
